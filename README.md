@@ -1,4 +1,4 @@
-### Comunicación entre objetos
+## Comunicación entre objetos
 
 Entrega realizada por Chiara Boccaletti, Patricia Sanz Escurín y Manuel Antón Martínez-Carrasco.
 
