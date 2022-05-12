@@ -1,6 +1,6 @@
-public class MouseListener {
-    
-    public void MouseListener() {
-        
-    }
+public interface MouseListener {
+    public void trazarPresionar();
+
+    public void trazarSoltar();
+
 }

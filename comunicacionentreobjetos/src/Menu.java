@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Menu {
     private Scanner teclado = new Scanner(System.in);
     private int opcion;
+    Ventana ventana = new Ventana(1);
 
     public void comunicacionEntreObjetos() {
         do {
@@ -11,22 +12,20 @@ public class Menu {
             opcion = teclado.nextInt();
             switch (opcion) {
                 case 1:
-                MouseListener mouseListener = new MouseListener();
-                mouseListener.MouseListener();
-                break;
+                    break;
                 case 2:
-                MouseAdapter mouseAdapter = new MouseAdapter();
-                mouseAdapter.MouseAdapter();
-                break;
+                    MouseAdapter mouseAdapter = new MouseAdapter();
+                    mouseAdapter.MouseAdapter();
+                    break;
                 case 3:
-                System.out.println("Gracias.");
-                break;
+                    System.out.println("Gracias.");
+                    break;
                 default:
-                System.out.println("Opción incorrecta.");
-                break;
+                    System.out.println("Opción incorrecta.");
+                    break;
             }
 
-        } while (opcion !=3);
+        } while (opcion != 3);
     }
 
     private void menu() {
