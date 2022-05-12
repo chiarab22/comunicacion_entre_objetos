@@ -1,8 +1,25 @@
-public class Ventana implements MouseListener {
-    private int id;
+import javax.swing.JFrame;
 
-    public Ventana(int id) {
-        this.id = id;
+public class Ventana extends JFrame implements MouseListener {
+    private int id;
+    
+    JFrame ventana;
+
+
+    public Ventana(int numero){
+        ventana = new JFrame("Ventana n. : " + numero);
+        setSize(300,300);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+    
+    @Override
+    public void setVisible(boolean b) {
+        super.setVisible(b);
+    }
+
+    public void setLocation(int x, int y) {
+        super.setLocation(x, y);
     }
 
     public int getId() {
