@@ -5,13 +5,10 @@ import java.awt.event.MouseEvent;
 
 import javax.swing.JFrame;
 import javax.swing.event.MouseInputAdapter;
-import javax.swing.event.MouseInputListener;
 
 public class Ventana_Adapter extends MouseInputAdapter{
     private int id;
     private JFrame ventana;
-
-
 
     public Ventana_Adapter(int id){
         ventana = new JFrame(String.format("Ventana n. %d: ", id));
@@ -32,7 +29,6 @@ public class Ventana_Adapter extends MouseInputAdapter{
     @Override
     public void mouseClicked(MouseEvent e) {
         super.mouseClicked(e);
-        
     }
 
     @Override
@@ -45,34 +41,29 @@ public class Ventana_Adapter extends MouseInputAdapter{
     public void mouseReleased(MouseEvent e) {
         super.mouseReleased(e);
         System.out.println(String.format("La ventana %d ha sido soltada en %dX y %dY", id, e.getX(),e.getY()));
-        
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
        super.mouseEntered(e);
-        
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
        super.mouseExited(e);
-        
     }
 
     @Override
     public void mouseDragged(MouseEvent e) {
        super.mouseDragged(e);
-        
     }
 
     @Override
     public void mouseMoved(MouseEvent e) {
        super.mouseMoved(e);
-        
     }
 
-    public void addMouseListener(MouseInputListener m) {
+    public void addMouseAdapter(MouseInputAdapter m) {
         this.ventana.addMouseListener(m);
     }
 }

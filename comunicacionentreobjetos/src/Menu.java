@@ -30,16 +30,16 @@ public class Menu {
                 case 2:
                 Ventana_Adapter ventana5 = new Ventana_Adapter(1);
                 ventana5.setLocation(250, 100);
-                ventana5.addMouseListener(ventana5);
+                ventana5.addMouseAdapter(ventana5);
                 Ventana_Adapter ventana6 = new Ventana_Adapter(2);
                 ventana6.setLocation(250, 400);
-                ventana6.addMouseListener(ventana6);
+                ventana6.addMouseAdapter(ventana6);
                 Ventana_Adapter ventana7 = new Ventana_Adapter(3);
                 ventana7.setLocation(550, 100);
-                ventana7.addMouseListener(ventana7);
+                ventana7.addMouseAdapter(ventana7);
                 Ventana_Adapter ventana8 = new Ventana_Adapter(4);
                 ventana8.setLocation(550, 400);
-                ventana8.addMouseListener(ventana8);
+                ventana8.addMouseAdapter(ventana8);
                     break;
                 case 3:
                     System.out.println("Gracias.");
