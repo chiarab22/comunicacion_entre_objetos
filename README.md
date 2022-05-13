@@ -7,7 +7,7 @@ Link al repositorio GitHub: https://github.com/chiarab22/comunicacion_entre_obje
 ## Ejercicio 1
 Este ejercicio consiste en escribir un programa que cree varias ventanas (de tipo JFrame) identificadas por un número en sus barras de título y que «trace» los eventos «presionar» y «soltar» del ratón en cada una de estas ventanas. Indicaremos cada evento mostrando en la salida por la consola de IntelliJ IDEA un mensaje que precise su naturaleza (presionar o soltar), el número de ventana y las coordenadas del puntero del ratón en el momento del evento.
 
-![1](https://www.eni-training.com/download/b592f85c-5fc6-4de6-8799-c12c97540711/images/04RI07V2.png?id%3DAAEAAAD%2F%2F%2F%2F%2FAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA5SnVhcmV6IENhZGl6IFJ1YmVuIC0gM2E5M2M5ZGItMzJlYi00MGY2LWFlOWQtOWUzNzM5ZWE0MDI2KAK4UQfM2YgL)
+![% 20](https://www.eni-training.com/download/b592f85c-5fc6-4de6-8799-c12c97540711/images/04RI07V2.png?id%3DAAEAAAD%2F%2F%2F%2F%2FAQAAAAAAAAAMAgAAAE1FbmkuRWRpdGlvbnMuTWVkaWFwbHVzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAJ0VuaS5FZGl0aW9ucy5NZWRpYXBsdXMuQ29tbW9uLldhdGVybWFyawIAAAAHcGlzVGV4dAlwaWR0ZURhdGUBAA0CAAAABgMAAAA5SnVhcmV6IENhZGl6IFJ1YmVuIC0gM2E5M2M5ZGItMzJlYi00MGY2LWFlOWQtOWUzNzM5ZWE0MDI2KAK4UQfM2YgL)
 
 Para esto, implementaremos un listener más especializado que actionListener: utilizaremos mouseListener.
 
