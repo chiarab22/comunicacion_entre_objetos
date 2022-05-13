@@ -18,10 +18,10 @@ public class Menu {
                 ventana1.setLocation(250, 100);
                 ventana1.addMouseListener(ventana1);
                 Ventana_Listener ventana2 = new Ventana_Listener(2);
-                ventana2.setLocation(250, 400);
+                ventana2.setLocation(550, 100);
                 ventana2.addMouseListener(ventana2);
                 Ventana_Listener ventana3 = new Ventana_Listener(3);
-                ventana3.setLocation(550, 100);
+                ventana3.setLocation(250, 400);
                 ventana3.addMouseListener(ventana3);
                 Ventana_Listener ventana4 = new Ventana_Listener(4);
                 ventana4.setLocation(550, 400);
@@ -32,10 +32,10 @@ public class Menu {
                 ventana5.setLocation(250, 100);
                 ventana5.addMouseAdapter(ventana5);
                 Ventana_Adapter ventana6 = new Ventana_Adapter(2);
-                ventana6.setLocation(250, 400);
+                ventana6.setLocation(550, 100);
                 ventana6.addMouseAdapter(ventana6);
                 Ventana_Adapter ventana7 = new Ventana_Adapter(3);
-                ventana7.setLocation(550, 100);
+                ventana7.setLocation(250, 400);
                 ventana7.addMouseAdapter(ventana7);
                 Ventana_Adapter ventana8 = new Ventana_Adapter(4);
                 ventana8.setLocation(550, 400);
