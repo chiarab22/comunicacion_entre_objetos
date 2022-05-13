@@ -5,7 +5,7 @@ Entrega realizada por Chiara Boccaletti, Patricia Sanz Escurín y Manuel Antón 
 Link al repositorio GitHub: https://github.com/chiarab22/comunicacion_entre_objetos.git
 
 ## Ejercicio 1
-Este ejercicio consiste en escribir un programa que cree varias ventanas (de tipo JFrame) identificadas por un número en sus barras de título y que «trace» los eventos «presionar» y «soltar» del ratón en cada una de estas ventanas. Indicaremos cada evento mostrando en la salida por la consola de IntelliJ IDEA un mensaje que precise su naturaleza (presionar o soltar), el número de ventana y las coordenadas del puntero del ratón en el momento del evento.L)
+Este ejercicio consiste en escribir un programa que cree varias ventanas (de tipo JFrame) identificadas por un número en sus barras de título y que «trace» los eventos «presionar» y «soltar» del ratón en cada una de estas ventanas. Indicaremos cada evento mostrando en la salida por la consola de IntelliJ IDEA un mensaje que precise su naturaleza (presionar o soltar), el número de ventana y las coordenadas del puntero del ratón en el momento del evento).
 
 Para esto, implementaremos un listener más especializado que actionListener: utilizaremos mouseListener.
 
